@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SUN BANK ACCOUNT OPENING FORM</title>
+</head>
+<body>
+
+    <h1>SUN BANK ACCOUNT OPENING FORM</h1>
+
+    <form action="loginac.html" method="get">
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="LastName">Last Name:</label>
+            <input type="text" id="LastName" name="LastName" required>
+
+            <label for="FirstName">First Name:</label>
+            <input type="text" id="FirstName" name="FirstName" required>
+
+            <label for="MiddleName">Middle Name:</label>
+            <input type="text" id="MiddleName" name="MiddleName"><br><br>
+
+            <label for="USERNAME">USERNAME:</label>
+            <input type="text" id="USERNAME" name="USERNAME" required>
+
+            <label for="PASSWORD">PASSWORD:</label>
+            <input type="password" id="PASSWORD" name="PASSWORD" required><br><br>
+
+            <label for="AADHARCARDNO">Aadhar Card Number:</label>
+            <input type="number" id="AADHARCARDNO" name="AADHARCARDNO" required><br><br>
+
+            <label for="PAN">PAN Number:</label>
+            <input type="text" id="PAN" name="PAN"><br><br>
+
+            <label for="mobileno">Mobile Number:</label>
+            <input type="tel" id="mobileno" name="mobileno" required><br><br>
+
+            <p>Select Gender:</p>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" id="DOB" name="DOB" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="confirm_email">Confirm Email:</label>
+            <input type="email" id="confirm_email" name="confirm_email" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Account Preferences</legend>
+
+            <label for="acctype">Account Type:</label>
+            <select id="acctype" name="acctype" required>
+                <option value="">-- Select Account Type --</option>
+                <option value="regular">Regular Savings</option>
+                <option value="premium">Sun Premium Savings</option>
+                <option value="student">Student Account</option>
+                <option value="senior">Senior Citizen Savings</option>
+                <option value="fd">Fixed Deposit</option>
+            </select><br><br>
+
+            <p>Select the Facilities Required:</p>
+            <input type="checkbox" id="ATM" name="ATM" value="ATM">
+            <label for="ATM">ATM Card</label><br>
+
+            <input type="checkbox" id="passbook" name="passbook" value="passbook">
+            <label for="passbook">Passbook</label><br>
+
+            <input type="checkbox" id="InternetBanking" name="InternetBanking" value="InternetBanking">
+            <label for="InternetBanking">Internet Banking</label><br><br>
+
+            <label for="adharphoto">Upload Aadhaar (PDF only):</label>
+            <input type="file" id="adharphoto" name="adharphoto" accept=".pdf"><br><br>
+
+            <label for="homebranch">Choose Home Branch:</label>
+            <select id="homebranch" name="homebranch" required>
+                <option value="">-- Select Branch --</option>
+                <option value="CUNCOLIM">CUNCOLIM</option>
+                <option value="PANAJIM">PANAJIM</option>
+                <option value="MARGAO" selected>MARGAO</option>
+            </select><br><br>
+
+            <label for="nominee">Nominee Name:</label>
+            <input type="text" id="nominee" name="nominee"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="5" cols="40" placeholder="Type your full address here..." required></textarea><br><br>
+        </fieldset>
+
+        <input type="submit" onclick="alert('Form Submitted')" value="Submit">
+        <input type="reset" onclick="alert('Form Reset')" value="Reset">
+    </form>
+
+    <footer>
+        <h2>Why Choose Sun Bank?</h2>
+        <p>🌞 Safe, trusted, and transparent banking</p>
+        <p>📱 Easy online account access</p>
+        <p>💬 24x7 customer support</p>
+        <p>💸 Fast and flexible withdrawal options</p>
+    </footer>
+
+</body>
+</html>
