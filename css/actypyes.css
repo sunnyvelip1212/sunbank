@@ -1,0 +1,46 @@
+.ac{
+    text-align: center;
+}
+
+
+#actypes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 2px solid #333;
+  padding: 20px;
+  margin-bottom: 100px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  border: 2px solid #333;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+
+.types {
+  border: 2px solid black;
+  flex: 1 1 250px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;  
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+
+#documents {
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f1f1f1;
+}

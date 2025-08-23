@@ -1,0 +1,36 @@
+h1{text-align: center; color: blue; text-shadow: 20cm;}
+
+
+h2{text-align: center;}
+.services{
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+    padding: 15px;
+    height: 250px;
+
+    
+}
+
+
+.ourservices{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #333;
+    padding: 20px;
+    margin-bottom: 100px;
+    
+}
+
+.img{
+    border: 1px solid black;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+p.pp{
+    text-align: center;
+}
+

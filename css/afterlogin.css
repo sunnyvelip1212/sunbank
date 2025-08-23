@@ -1,0 +1,136 @@
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #333;
+  line-height: 1.7;
+
+}
+
+
+.logout {
+  color: white;
+  background: crimson;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.logout:hover {
+  background: darkred;
+}
+
+
+header {
+  background: #003366;
+  padding: 10px 20px;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 20px;
+}
+nav.log {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.me {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+.me li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 10px;
+  transition: 0.3s;
+}
+.me li a:hover,
+.me li a.active {
+  background: #0055aa;
+  border-radius: 5px;
+}
+
+.services-menu {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  background: #f0f0f0;
+}
+.services-menu a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
+.services-menu a:hover {
+  color: #0055aa;
+}
+
+.dashboard {
+  padding: 20px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.account-details, .balance {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  flex: 1 1 300px;
+}
+.balance input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+footer {
+  background: #003366;
+  color: white;
+  margin-top: 40px;
+  padding: 30px 20px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.footer-logo img {
+  display: block;
+  margin-bottom: 10px;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-links ul li {
+  margin: 5px 0;
+}
+.footer-links ul li a {
+  color: #eee;
+  text-decoration: none;
+}
+.footer-links ul li a:hover {
+  color: yellow;
+}
+footer .pp {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  padding-top: 10px;
+  font-size: 14px;
+}
