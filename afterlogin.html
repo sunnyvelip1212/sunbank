@@ -3,64 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <title>SUN BANK - Dashboard</title>
+  <link rel="stylesheet" href="css/afterlogin.css">
+  <link rel="stylesheet" href="css/headandfooter.css">
 </head>
 <body>
-
   <header>
-    <div>
-      <img src="logo.png" alt="SUN BANK Logo" width="30" height="30">
-      <strong>SUN BANK</strong>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="homesun.html">Home</a></li>
-        <li><a href="aboutsun.html">About</a></li>
-        <li><a href="acintrest.html">Interest Rates</a></li>
-        <li><a href="actypes.html">Account Types</a></li>
-        <li><a href="acopen.html">Open Account</a></li>
-        <li><a href="loginac.html">Login</a></li>
+    <nav class="log">
+      <div class="logo">
+        <img src="logo.png" alt="SUN BANK Logo" width="40" height="40">
+        <strong>SUN BANK</strong>
+      </div>
+      <ul class="me">
+        <li><a href="#">ATM Cards</a></li>
+        <li><a href="#">Statements</a></li>
+       <li><a href="#">Profile</a></li>
+       <li><a href="#">Support</a></li> 
+       <li><a href="loginac.html" class="logout">Logout</a></li>
       </ul>
     </nav>
-    <hr>
   </header>
-
-  <nav>
+  <nav class="services-menu">
     <select>
-      <option>-- Select --</option>
+      <option>-- Select Service --</option>
+      <option>ATM Cards</option>
+      <option>Statements</option>
+      <option>Profile</option>
     </select>
-    <a href="#">Link one</a>
-    <a href="#">Link two</a>
-    <a href="#">Link three</a>
-    <a href="#">Link four</a>
   </nav>
+  <main class="dashboard">
+     <section class="account-details">
+      <h3>Account Details</h3>
+      <p><strong>Name:</strong> Rahul Sharma</p>
+      <p><strong>Account Number:</strong> 1234 5678 9012</p>
+      <p><strong>Account Type:</strong> Savings</p>
+      <p><strong>IFSC Code:</strong> SUNB0000456</p>
+      <p><strong>Branch:</strong> Panaji, Goa</p>
+      <p><strong>Email:</strong> rahul.sharma@example.com</p>
+      <p><strong>Mobile:</strong> +91 98765 43210</p>
+    </section>
 
-  <div>
-    <div>
-      <div>
-        <h3>ACCOUNTS DETAILS</h3>
-        <p>[Account details go here]</p>
-      </div>
+    <section class="balance">
+      <h3>Available Balance</h3>
+      <label>₹</label>
+      <input type="text" value="222222" readonly>
+    </section>
+  </main>
 
-      <div>
-        <h3>AVAILABLE BALANCE</h3>
-        <label>RS.</label>
-        <input type="text" value="222222" readonly>
-      </div>
-    </div>
-  </div>
 
   <footer>
-    <div>
-      <strong>Logo</strong>
-      <address>
-        <strong>Head Office:</strong><br>
-        Sun Towers, Sector 5<br>
-        Panaji, Goa – 403001, India
-      </address>
-    </div>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="logo.png" width="40" height="40" alt="Sun Bank Logo">
+        <p><strong>SUN BANK</strong></p>
+      </div>
 
-    <div style="display: flex; gap: 50px;">
-      <div>
+      <div class="footer-links">
         <strong>Banking</strong>
         <ul>
           <li><a href="homesun.html">Home</a></li>
@@ -72,18 +69,23 @@
         </ul>
       </div>
 
-      <div>
-        <strong>Support</strong><br>
+      <div class="footer-support">
+        <address>
+          <strong>Head Office:</strong><br>
+          Sun Towers, Sector 5<br>
+          Panaji, Goa – 403001, India
+        </address>
+        <strong>Support</strong>
         <p>🌞 Safe, trusted, and transparent banking</p>
         <p>📱 Easy online account access</p>
         <p>💬 24x7 customer support</p>
         <p>💸 Fast and flexible withdrawal options</p>
-        <p>📞 Contact our 24x7 support at 1800-789-555</p>
+        <p>📞 Contact our 24x7 support at 1800-789-SUNB</p>
         <p>🏢 Or visit your nearest Sun Bank branch.</p>
       </div>
     </div>
 
-    <p>&copy; 2024 SUN BANK. All rights reserved.</p>
+    <p class="pp">&copy; 2024 SUN BANK. All rights reserved.</p>
   </footer>
 
 </body>
